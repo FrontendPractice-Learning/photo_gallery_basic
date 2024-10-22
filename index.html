@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+        <button type="button">New image +</button>
+    </header>
+    <form>
+        <h2>Insert new image</h2>
+        <input id="new-image-adress" type="url" required placeholder="image URL">
+        <button type="submit">Add</button>
+        <button id="btn-cancel" type="reset">Cancel</button>
+    </form>
+    <ul>
+        <li>
+            <img src="./images_M9/images/photo1.jpg" alt="Painting of a cat">
+            <div class="overlay-image-link">
+                <a href="./images_M9/images/photo1.jpg" target="_blank">
+                    View image in full size
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images_M9/images/photo2.jpg" alt="Photo of a flamingo">
+            <div class="overlay-image-link">
+                <a href="./images_M9/images/photo2.jpg" target="_blank">
+                    View image in full size
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images_M9/images/photo3.jpg" alt="Photo of puppy puppies">
+            <div class="overlay-image-link">
+                <a href="./images_M9/images/photo3.jpg" target="_blank">
+                    View image in full size
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
